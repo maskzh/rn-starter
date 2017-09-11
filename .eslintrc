@@ -1,0 +1,18 @@
+{
+  "extends": ["airbnb", "plugin:react-native/all"],
+  "plugins": ["react-native"],
+  "parser": "babel-eslint",
+  "globals": {
+    "fetch": true
+  },
+  "rules": {
+    "semi": [2, "never"], // 不允许分号
+    "no-underscore-dangle": 0, // 允许变量前使用 _
+    "camelcase": [0], // 允许变量使用_
+    "react/forbid-prop-types": 0,
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }] // 允许 js 扩展名
+    // "no-param-reassign": [2, { "props": false }], // 参数不可修改，属性可修改
+    // "react/jsx-first-prop-new-line": 0, // 属性不需另起一行
+    // "react/require-default-props": 0, // 允许不设置 defaultProps
+  }
+}

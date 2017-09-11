@@ -1,0 +1,16 @@
+{
+  "expo": {
+    "name": "react native starter",
+    "icon": "./logo.jpg",
+    "version": "0.1.0",
+    "slug": "rn",
+    "sdkVersion": "20.0.0",
+    "scheme": "rn",
+    "ios": {
+      "bundleIdentifier": "com.maskzh.rn"
+    },
+    "android": {
+      "package": "com.maskzh.rn"
+    }
+  }
+}
